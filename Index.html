@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Decodificador de Texto</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="src/img/Frame 6.svg" alt="Logo Alura">
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <textarea cols="120" rows="120" placeholder="Digite seu texto" id="textinput"></textarea>
+        </form>
+
+        <div class="menu-retangulo" id="retangulo">
+            <p id="texto-retangulo"></p>
+            <div id="retangulo-logo">
+                <img src="src/img/High quality products 1 1.svg" alt="Imagem de um menino com uma lupa associando a não encontrada mensagem" class="logo-retangulo"><br>
+                <h1>
+                    <p class="texto-output">Nenhuma mensagem encontrada</p>
+                    <p class="paragrafo-output">Digite um texto que deseja criptografar ou descriptografar</p>
+                </h1>
+            </div>
+            <button class="copiar" id="botao-copiar">Copiar</button>
+        </div>
+
+        <div class="nota">
+
+            <img src="src/img/Vector.svg">
+            <p> Apenas letras minúsculas e sem acento.</p>
+
+        </div>
+
+        <button class="criptografar" id="botao-criptografar">Criptografar</button>
+        <button class="descriptografar" id="botao-descriptografar">Descriptografar</button>
+
+    </main>
+    <script defer src="src/js/script-main.js"></script>
+</body>
+<div class="informacoes">
+    <span>Desenvolvido por: <strong>Yuri Briedis</strong></span>
+    <div class="container-icons">
+        <a href="https://github.com/yuribriedis" target="_blank">
+            <img src="https://skillicons.dev/icons?i=github" class="img-social-networks-icon" alt="Logo Github" />
+        </a>
+        <a href="https://www.linkedin.com/in/yuri-briedis/" target="_blank">
+            <img src="https://skillicons.dev/icons?i=linkedin" class="img-social-networks-icon" alt="Logo Linkedin" />
+        </a>
+    </div>
+</div>
+
+</html>
