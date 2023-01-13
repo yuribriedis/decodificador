@@ -32,5 +32,5 @@
 <h1 align="center"> 🔧 Extras</h1>
 <p>Um botão que copia o texto criptografado/descriptografado para a seção de transferência, ou seja, tem a mesma funcionalidade que ctrl+C ou a opção "copiar" no menu de aplicativos.</p>
 
-<h1 align="center> 📓 Autor </h1>
-<p><strong> Yuri Briedis </strong></p>
+<h1 align="center"> 📓 Autor </h1>
+<p align="center"><strong> Yuri Briedis </strong></p>
